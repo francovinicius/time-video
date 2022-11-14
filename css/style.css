@@ -1,5 +1,5 @@
 @import url("navbar.css");
-@import url("carrossel.css");
+@import url("lancamentos.css");
 
 
 :root {
@@ -13,5 +13,41 @@ body {
 
     background-color: var(--bg-pagina);
     color: var(--texto-principal);
+}
+
+.categoria-geral {
+
+    width: 100%;
+    height: 256px;
+}
+
+.texto-categoria {
+
+    margin-left: 5rem;
+
+    color: var(--texto-principal);
+
+    font-weight: 600;
+    font-size: 1.6rem;
+
+    opacity: 0.8;
+}
+
+.categoria-geral{
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    gap: 1rem;
+}
+
+.img-categoria {
+
+    width: 17rem;
+    height: 9rem;
+
 }
 
