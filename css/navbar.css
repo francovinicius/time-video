@@ -1,18 +1,29 @@
 .container-navbar {
 
-    background-color: #19232E;
+    display: flex;
+    justify-content: space-between;
     height: 70px;
+
+    background-color: var(--bg-navbar);
+
+    color: var(--texto-principal);
+
+    font-weight: 600;
+    font-size: 18px;
+
+    
 }
 
 .direita-navbar {
 
     display: flex;
+    padding-left: 5rem;
     
 }
 
 .logo-navbar {
 
-    width: 170px;
+    width: 180px;
     height: 99px;
 }
 
@@ -21,7 +32,63 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 300px;
-    margin-bottom: 50px;
+    width: 350px;
+
+}
+
+.esquerda-navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 400px;
+    padding-right: 5rem;
+
+}
+
+.login-navbar{
+
+    width: 90px;
+    margin-left: 15px;
+    padding-right: 5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-login-navbar {
+    
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.input-navbar{
+
+    width: 200px;
+    height: 30px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 16px;
+
+    background-color: var(--input);
+    
+}
+.lupa-navbar {
+
+    width: 30px;
+    height: 30px;
+    color: var(--texto-principal)
+}
+
+.campo-pesquisa-navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
 
 }

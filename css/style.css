@@ -1,0 +1,8 @@
+:root {
+    --bg-navbar: #1D2226;
+    --texto-principal: #FFFFFF;
+    --input: #38434F;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
