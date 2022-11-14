@@ -1,0 +1,27 @@
+.container-navbar {
+
+    background-color: #19232E;
+    height: 70px;
+}
+
+.direita-navbar {
+
+    display: flex;
+    
+}
+
+.logo-navbar {
+
+    width: 170px;
+    height: 99px;
+}
+
+.opcoes-navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-bottom: 50px;
+
+}
