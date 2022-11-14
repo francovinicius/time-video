@@ -1,8 +1,17 @@
+@import url("navbar.css");
+@import url("carrossel.css");
+
+
 :root {
     --bg-navbar: #1D2226;
     --texto-principal: #FFFFFF;
     --input: #38434F;
+    --bg-pagina: #000000;
 }
 body {
     font-family: 'Montserrat', sans-serif;
+
+    background-color: var(--bg-pagina);
+    color: var(--texto-principal);
 }
+

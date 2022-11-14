@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/navbar.css">
     <title>Time Video</title>
 </head>
 <body>
@@ -40,7 +40,26 @@
         </section>
     </header>
     <main>
-        <section class="container-destaques"></section>
+        <section class="lancamentos">
+
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/batman-banner.jpg" alt="banner do batman"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/Circulo-de-Fogo-banner.jpg" alt="banner circulo de fogo"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/John-Wick-4-banner.jpg" alt="banner john wick 4"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/mk-banner.jpg" alt="banner mk"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/tintin-banner.jpg" alt="banner tintin"></a></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
     </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/carrossel-lancamento.js"></script>
 </body>
 </html>

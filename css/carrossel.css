@@ -1,0 +1,25 @@
+.lancamentos {
+
+    align-items: center;
+
+    width: 100%;
+    height: 700px;
+    padding-top: 1.5rem;
+}
+
+.swiper {
+    width: 90%;
+    height: 500px;
+}
+
+.swiper img {
+    width: 100%;
+    height: 80%;
+    opacity: 0.4;
+}
+
+.swiper-pagination {
+
+    position:unset;
+    
+}
