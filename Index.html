@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Time Video</title>
-</head>
-<body>
-    <header>
-        <section class="container-navbar">
-            <div class="direita-navbar">
-                <img src="./Img/Logo-Dark.png" alt="Time Video" class="logo-navbar">
-            <ul class="opcoes-navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Top 10</a></li>
-                <li><a href="#">Categorias</a></li>
-            </ul>
-            </div>
-            <div class="esquerda-navbar">
-                <div class="campo-pesquisa-navbar">
-                    <input class="input-navbar" type="text" placeholder="Pesquisar">
-                    <a href="#"><img class="lupa-navbar" src="./Img/icon/pesquisar-navbar.png" alt=""></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Time Video</title>
+    </head>
+    <body>
+        <header>
+            <section class="container-navbar">
+                <div class="direita-navbar">
+                    <img src="./Img/Logo-Dark.png" alt="Time Video" class="logo-navbar">
+                <ul class="opcoes-navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Top 10</a></li>
+                    <li><a href="#">Categorias</a></li>
+                </ul>
                 </div>
-                <div class="login-navbar">
-                    <a href="#">
-                       Login
-                    </a>
-                    <a href="#"><img class="img-login-navbar" src="./Img/icon/user-login.png" alt="login"></a>
+                <div class="esquerda-navbar">
+                    <div class="campo-pesquisa-navbar">
+                        <input class="input-navbar" type="text" placeholder="Pesquisar">
+                        <a href="#"><img class="lupa-navbar" src="./Img/icon/pesquisar-navbar.png" alt=""></a>
+                    </div>
+                    <div class="login-navbar">
+                        <a href="#">
+                        Login
+                        </a>
+                        <a href="#"><img class="img-login-navbar" src="./Img/icon/user-login.png" alt="login"></a>
+                    </div>
                 </div>
-            </div>
-            
-        </section>
-    </header>
-    <main>
-        <section class="lancamentos">
+                
+            </section>
+        </header>
+        <main>
+            <section class="lancamentos">
 
-            <div class="swiper">
+                <div class="swiper">
 
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/batman-banner.jpg" alt="banner do batman"></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/Circulo-de-Fogo-banner.jpg" alt="banner circulo de fogo"></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/John-Wick-4-banner.jpg" alt="banner john wick 4"></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/mk-banner.jpg" alt="banner mk"></a></div>
-                    <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/tintin-banner.jpg" alt="banner tintin"></a></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/batman-banner.jpg" alt="banner do batman"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/Circulo-de-Fogo-banner.jpg" alt="banner circulo de fogo"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/John-Wick-4-banner.jpg" alt="banner john wick 4"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/mk-banner.jpg" alt="banner mk"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./Img/lançamentos/tintin-banner.jpg" alt="banner tintin"></a></div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </section>
-        <section class="categoria">
-            <div class="acao-aventura">
-                <h2 class="texto-categoria acao-e-aventura">Ação e Aventura</h2>
-                <div class="categoria-geral">
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-1.jpg" alt="Filme 1"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-7.jpg" alt="Filme 2"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-3.jpg" alt="Filme 3"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-4.jpg" alt="Filme 4"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-5.jpg" alt="Filme 5"></a></div>                    
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-6.jpg" alt="Filme6"></a></div>
+            </section>
+            <section class="categoria">
+                <div class="acao-aventura">
+                    <h2 class="texto-categoria acao-e-aventura">Ação e Aventura</h2>
+                    <div class="categoria-geral">
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-1.jpg" alt="Filme 1"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-7.jpg" alt="Filme 2"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-3.jpg" alt="Filme 3"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-4.jpg" alt="Filme 4"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-5.jpg" alt="Filme 5"></a></div>                    
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-6.jpg" alt="Filme 6"></a></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="Anime">
-                <h2 class="texto-categoria acao-e-aventura">Anime</h2>
-                <div class="categoria-geral">
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-1.jpg" alt="Filme 1"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-7.jpg" alt="Filme 2"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-3.jpg" alt="Filme 3"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-4.jpg" alt="Filme 4"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-5.jpg" alt="Filme 5"></a></div>                    
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-6.jpg" alt="Filme6"></a></div>
+                <div class="Anime">
+                    <h2 class="texto-categoria acao-e-aventura">Anime</h2>
+                    <div class="categoria-geral">
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-1.jpg" alt="Filme 1"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-2.jpg" alt="Filme 2"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-3.jpg" alt="Filme 3"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-4.jpg" alt="Filme 4"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-5.jpg" alt="Filme 5"></a></div>                    
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-6.jpg" alt="Filme6"></a></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="comedia">
-                <h2 class="texto-categoria acao-e-aventura">Comédia</h2>
-                <div class="categoria-geral">
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-1.jpg" alt="Filme 1"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-7.jpg" alt="Filme 2"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-3.jpg" alt="Filme 3"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-4.jpg" alt="Filme 4"></a></div>
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-5.jpg" alt="Filme 5"></a></div>                    
-                    <div><a href="#"><img class="img-categoria" src="./Img/filmes/acao-aventura/filme-6.jpg" alt="Filme6"></a></div>
+                <div class="comedia">
+                    <h2 class="texto-categoria acao-e-aventura">Comédia</h2>
+                    <div class="categoria-geral">
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-1.jpg" alt="Filme 1"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-2.jpg" alt="Filme 2"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-3.jpg" alt="Filme 3"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-4.jpg" alt="Filme 4"></a></div>
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-5.jpg" alt="Filme 5"></a></div>                    
+                        <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-6.jpg" alt="Filme6"></a></div>
+                    </div>
                 </div>
-            </div>
-            
+            </section>
 
+        </main>
 
-        </section>
-
-    </main>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./js/carrossel-lancamento.js"></script>
-</body>
+        <footer class="container-rodape">
+                <img src="./Img/Logo-Dark.png" alt="Time Video">
+                
+                <div class="link-rodape">
+                    <ul>
+                        <li class="termo-rodape"><a href="">Termos e aviso de privacidade</a></li>
+                        <li class="feedback-rodape"><a href="">Enviar feedback</a></li>
+                        <li class="ajuda-rodape"><a href="">Ajuda</a></li>
+                    </ul>
+    
+                    <span class="info-rodape">© 1996-2022, timevideo.com, Inc. ou suas afiliadas</span>
+                </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/carrossel-lancamento.js"></script>
+    </body>
 </html>

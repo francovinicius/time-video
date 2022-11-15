@@ -1,5 +1,7 @@
 @import url("navbar.css");
 @import url("lancamentos.css");
+@import url("acaoeaventura.css");
+@import url("rodape.css");
 
 
 :root {
@@ -11,6 +13,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 
+    background-color: var(--bg-pagina);
+    color: var(--texto-principal);
+}
+
+main {
     background-color: var(--bg-pagina);
     color: var(--texto-principal);
 }
