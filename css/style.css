@@ -2,6 +2,7 @@
 @import url("lancamentos.css");
 @import url("acaoeaventura.css");
 @import url("rodape.css");
+@import url("top10.css");
 
 
 :root {
@@ -9,6 +10,7 @@
     --texto-principal: #FFFFFF;
     --input: #38434F;
     --bg-pagina: #000000;
+    --azul-logo: #00A8E1;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -55,6 +57,8 @@ main {
 
     width: 17rem;
     height: 9rem;
+
+    border-radius: 6px;
 
 }
 
