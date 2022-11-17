@@ -63,3 +63,9 @@ main {
 
 }
 
+.img-categoria:hover {
+    width: 18rem;
+    height: 15rem;
+    transition: .5s;
+    cursor: pointer;
+}

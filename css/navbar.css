@@ -36,8 +36,9 @@
 
 }
 
-.opcoes-navbar li:hover, .login-navbar a:hover, .campo-pesquisa-navbar a img:hover, .direita-navbar a img:hover  {
-    transform: scale(1.3);
+.opcoes-navbar li:hover, .login-navbar a:hover, .campo-pesquisa-navbar a img:hover, .direita-navbar a img:hover, #dropdownMenuButton:hover  {
+
+    cursor:pointer;
 }
 
 .esquerda-navbar {
@@ -82,11 +83,6 @@
     
 }
 
-.input-navbar:active, .input-navbar:hover {
-
-    
-}
-
 .lupa-navbar {
 
     width: 30px;
@@ -100,6 +96,14 @@
     align-items: center;
     justify-content: space-between;
 
-   
+}
 
+.dropdown-menu {
+    background: var(--bg-navbar);
+}
+
+.dropdown-item {
+
+    font-size: 18px;
+    color: var(--texto-principal);
 }

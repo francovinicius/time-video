@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!--    bootstrap css   -->
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-         <!--    fim     -->
+
+         <!--   swiper API  -->
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +24,22 @@
                 <div class="direita-navbar">
                     <a href="#"><img src="./Img/Logo-Dark.png" alt="Time Video" class="logo-navbar"></a>
                     <ul class="opcoes-navbar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Top 10</a></li>
-                        <li><button class="categoria-menu" area-label="Menu"><a href="#">Categorias</a></button></li>
+                        <li>Home</li>
+                        <li>Top 10</li>
+                        <li><div class="dropdown">
+                                <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class=".categoria-menu">
+                                Categorias
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Ação</a>
+                                    <a class="dropdown-item" href="#">Aventura</a>
+                                    <a class="dropdown-item" href="#">Comédia</a>
+                                    <a class="dropdown-item" href="#">Documentário</a>
+                                    <a class="dropdown-item" href="#">Infantil</a>
+                                    <a class="dropdown-item" href="#">Terror</a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="esquerda-navbar">
@@ -40,17 +54,6 @@
                         <a href="#"><img class="img-login-navbar" src="./Img/icon/user-login.png" alt="login"></a>
                     </div>
                 </div>
-            </section>
-            <section class="menu-escondido">
-                <ul class="menu-sub">
-                    <li class="categoria-ancora"><a href="#">Ação</a></li>
-                    <li class="categoria-ancora"><a href="#">Aventura</a></li>
-                    <li class="categoria-ancora"><a href="#">Comédia</a></li>
-                    <li class="categoria-ancora"><a href="#">Documentário</a></li>
-                    <li class="categoria-ancora"><a href="#">Infantil</a></li>
-                    <li class="categoria-ancora"><a href="#">Terror</a></li>
-                </ul>
-
             </section>
         </header>
         <main>
@@ -162,7 +165,7 @@
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">Anterior</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" data>
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Próximo</span>
                     </a>
@@ -225,13 +228,13 @@
         </footer>
 
 
+        <!--    swiper API -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <!-- bootstrap  -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <!--    fim -->
+
         <script src="./js/carrossel-lancamento.js"></script>
-        <script src="./js/navbar.js"></script>
     </body>
 </html>
