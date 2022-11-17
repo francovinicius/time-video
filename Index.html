@@ -21,12 +21,12 @@
         <header>
             <section class="container-navbar">
                 <div class="direita-navbar">
-                    <img src="./Img/Logo-Dark.png" alt="Time Video" class="logo-navbar">
-                <ul class="opcoes-navbar">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Top 10</a></li>
-                    <li><a href="#">Categorias</a></li>
-                </ul>
+                    <a href="#"><img src="./Img/Logo-Dark.png" alt="Time Video" class="logo-navbar"></a>
+                    <ul class="opcoes-navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Top 10</a></li>
+                        <li><button class="categoria-menu" area-label="Menu"><a href="#">Categorias</a></button></li>
+                    </ul>
                 </div>
                 <div class="esquerda-navbar">
                     <div class="campo-pesquisa-navbar">
@@ -40,7 +40,17 @@
                         <a href="#"><img class="img-login-navbar" src="./Img/icon/user-login.png" alt="login"></a>
                     </div>
                 </div>
-                
+            </section>
+            <section class="menu-escondido">
+                <ul class="menu-sub">
+                    <li class="categoria-ancora"><a href="#">Ação</a></li>
+                    <li class="categoria-ancora"><a href="#">Aventura</a></li>
+                    <li class="categoria-ancora"><a href="#">Comédia</a></li>
+                    <li class="categoria-ancora"><a href="#">Documentário</a></li>
+                    <li class="categoria-ancora"><a href="#">Infantil</a></li>
+                    <li class="categoria-ancora"><a href="#">Terror</a></li>
+                </ul>
+
             </section>
         </header>
         <main>
@@ -74,7 +84,7 @@
                 </div>
 
                 <div class="Anime">
-                    <h2 class="texto-categoria acao-e-aventura">Anime</h2>
+                    <h2 class="texto-categoria anime">Anime</h2>
                     <div class="categoria-geral">
                         <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-1.jpg" alt="Filme 1"></a></div>
                         <div><a href="#"><img class="img-categoria" src="./Img/filmes/anime/filme-2.jpg" alt="Filme 2"></a></div>
@@ -86,7 +96,7 @@
                 </div>
 
                 <div class="comedia">
-                    <h2 class="texto-categoria acao-e-aventura">Comédia</h2>
+                    <h2 class="texto-categoria comedia">Comédia</h2>
                     <div class="categoria-geral">
                         <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-1.jpg" alt="Filme 1"></a></div>
                         <div><a href="#"><img class="img-categoria" src="./Img/filmes/comedia/filme-2.jpg" alt="Filme 2"></a></div>
@@ -162,7 +172,7 @@
 
             <section class="categoria">
               <div class="terror">
-                  <h2 class="texto-categoria acao-e-aventura">Terror</h2>
+                  <h2 class="texto-categoria terror">Terror</h2>
                   <div class="categoria-geral">
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/terror/filme-1.jpg" alt="Filme 1"></a></div>
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/terror/filme-'.jfif" alt="Filme 2"></a></div>
@@ -174,7 +184,7 @@
               </div>
 
               <div class="Anime">
-                  <h2 class="texto-categoria acao-e-aventura">Anime</h2>
+                  <h2 class="texto-categoria infantil">Infantil</h2>
                   <div class="categoria-geral">
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/infantil/filme-1.jfif" alt="Filme 1"></a></div>
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/infantil/filme-2.jpg" alt="Filme 2"></a></div>
@@ -186,7 +196,7 @@
               </div>
 
               <div class="comedia">
-                  <h2 class="texto-categoria acao-e-aventura">Documentário</h2>
+                  <h2 class="texto-categoria documentario">Documentário</h2>
                   <div class="categoria-geral">
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/documentario/filme-1.jfif" alt="Filme 1"></a></div>
                       <div><a href="#"><img class="img-categoria" src="./Img/filmes/documentario/filme-2.jpg" alt="Filme 2"></a></div>
@@ -222,7 +232,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <!--    fim -->
         <script src="./js/carrossel-lancamento.js"></script>
-        <script src="./top10.js"></script>
-        
+        <script src="./js/navbar.js"></script>
     </body>
 </html>

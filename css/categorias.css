@@ -1,0 +1,42 @@
+.menu-escondido {
+
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    left: -100%;
+    height: 100px;
+    margin-top: 0.7rem;
+
+    border-radius: 6px;
+    background: var(--bg-navbar);
+
+    transition: .25s;
+
+
+}
+
+.menu-escondido--ativo {
+    left: 15%;
+    transition: .25s;
+}
+
+.menu-sub {
+
+    display: flex;
+    gap: 5rem;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+.menu-sub li {
+    color: var(--input);
+    background-color: var(--texto-principal);
+    border: 5px solid var(--texto-principal);
+    border-radius: 5px;
+}

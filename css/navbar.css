@@ -36,6 +36,10 @@
 
 }
 
+.opcoes-navbar li:hover, .login-navbar a:hover, .campo-pesquisa-navbar a img:hover, .direita-navbar a img:hover  {
+    transform: scale(1.3);
+}
+
 .esquerda-navbar {
 
     display: flex;
@@ -62,20 +66,27 @@
     
     width: 30px;
     height: 30px;
-    margin-left: 5px;
+    margin-left: 5.9px;
 }
 
 .input-navbar{
 
-    width: 200px;
+    width: 230px;
     height: 30px;
-    padding-left: 50px;
+    padding-left: 65px;
+    margin-right: 5px;
     border: none;
     border-radius: 16px;
 
     background-color: var(--input);
     
 }
+
+.input-navbar:active, .input-navbar:hover {
+
+    
+}
+
 .lupa-navbar {
 
     width: 30px;

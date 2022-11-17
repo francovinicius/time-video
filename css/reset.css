@@ -84,3 +84,8 @@ select {
 	font-weight: inherit;
 	font-family: inherit;
 }
+
+.opcoes-navbar, .opcoes-navbar li, .opcoes-navbar li a, .login-navbar, .login-navbar a {
+	text-decoration: none;
+
+}
