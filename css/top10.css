@@ -32,3 +32,22 @@
     border-radius: 6px;
 
 }
+
+.texto-top10:hover {
+    cursor: pointer;
+}
+
+.carousel-indicators {
+
+    top: 41rem;
+}
+
+.carousel-control-prev {
+
+    left: -4rem;
+}
+
+.carousel-control-next {
+
+    left: 29.5rem;
+}
