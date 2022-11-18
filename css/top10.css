@@ -51,3 +51,8 @@
 
     left: 29.5rem;
 }
+
+.carousel-inner {
+
+    opacity: 0.6;
+}

@@ -29,6 +29,8 @@ main {
 
     width: 100%;
     height: 256px;
+
+    opacity: 0.6;
 }
 
 .texto-categoria {
@@ -68,4 +70,6 @@ main {
     height: 15rem;
     transition: .5s;
     cursor: pointer;
+
+    opacity: none;
 }
